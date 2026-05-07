@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "slug": "vintage-sunset-tee",
+    "title": "The Vintage Sunset Tee",
+    "tagline": "Wear the golden hour.",
+    "description": "This isn't just a t-shirt — it's a vibe. The faded sunset graphic feels like it was pulled straight from a 1970s road trip. Soft, relaxed fit, and the kind of shirt people will ask you about. Makes an incredible gift for anyone who loves the outdoors, travel, or just looking effortlessly cool.",
+    "whyGift": "Perfect for the friend who has everything but still manages to look underdressed. This one fixes that.",
+    "price": "$24.99",
+    "affiliateUrl": "https://amzn.to/PLACEHOLDER1",
+    "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80",
+    "category": "Vintage",
+    "tags": ["vintage", "sunset", "gift", "unisex"],
+    "featured": true
+  },
+  {
+    "id": "2",
+    "slug": "midnight-mountain-tee",
+    "title": "The Midnight Mountain Tee",
+    "tagline": "For those who peak differently.",
+    "description": "Bold, dark, and unapologetically cool. The Midnight Mountain Tee features a stunning mountain range graphic on a deep black base. Heavyweight cotton, relaxed fit — this shirt means business. Whether you're hiking or just hiking to the fridge, you'll look great doing it.",
+    "whyGift": "The ultimate gift for hikers, adventurers, or anyone who just loves the mountains. They'll wear it every week.",
+    "price": "$27.99",
+    "affiliateUrl": "https://amzn.to/PLACEHOLDER2",
+    "imageUrl": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&q=80",
+    "category": "Adventure",
+    "tags": ["mountain", "adventure", "hiking", "gift"],
+    "featured": true
+  },
+  {
+    "id": "3",
+    "slug": "retro-wave-tee",
+    "title": "The Retro Wave Tee",
+    "tagline": "Back to the future of fashion.",
+    "description": "Synthwave meets streetwear. This neon-tinged retro design is loud, proud, and incredibly fun. Printed on ultra-soft ring-spun cotton, it's comfortable enough to live in. The kind of shirt that turns a Tuesday into an event.",
+    "whyGift": "For the person in your life who unironically loves the 80s — or just great design. Birthday, Christmas, or just because.",
+    "price": "$22.99",
+    "affiliateUrl": "https://amzn.to/PLACEHOLDER3",
+    "imageUrl": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=800&q=80",
+    "category": "Retro",
+    "tags": ["retro", "80s", "synthwave", "fun", "gift"],
+    "featured": false
+  }
+]

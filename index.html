@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Coolest T-Shirts on the Web</title>
+  <meta name="description" content="Discover the coolest t-shirts on the web. Handpicked designs that make perfect gifts or just look amazing. Shop now on Amazon." />
+  <meta property="og:title" content="The Coolest T-Shirts on the Web" />
+  <meta property="og:description" content="Handpicked cool t-shirts — great designs, perfect gifts." />
+  <meta property="og:type" content="website" />
+  <link rel="canonical" href="https://yoursite.vercel.app/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">🔥 CoolTees</a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#featured">Featured</a>
+        <a href="#all">All Shirts</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow">✦ Handpicked for you</p>
+      <h1>The Coolest<br/>T-Shirts<br/>on the Web.</h1>
+      <p class="hero-sub">Bold designs. Perfect gifts. Delivered by Amazon.</p>
+      <a href="#featured" class="btn-primary">Shop the Collection ↓</a>
+    </div>
+  </section>
+
+  <!-- FEATURED SECTION -->
+  <section class="section" id="featured">
+    <div class="container">
+      <h2 class="section-title">⭐ Featured Picks</h2>
+      <p class="section-sub">Our absolute favorites right now.</p>
+      <div class="product-grid" id="featured-grid"></div>
+    </div>
+  </section>
+
+  <!-- ALL SHIRTS -->
+  <section class="section section-dark" id="all">
+    <div class="container">
+      <h2 class="section-title">All Shirts</h2>
+      <p class="section-sub">Every shirt we love — no fluff, just great design.</p>
+      <div class="product-grid" id="all-grid"></div>
+    </div>
+  </section>
+
+  <!-- GIFT BANNER -->
+  <section class="gift-banner">
+    <div class="container">
+      <h2>🎁 Looking for a gift?</h2>
+      <p>Every shirt on this site makes an incredible gift. Check the "Why it's a great gift" section on each product page.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>🔥 CoolTees — Handpicked T-Shirts from Amazon</p>
+      <p class="disclaimer">As an Amazon Associate I earn from qualifying purchases. Prices and availability may vary.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
