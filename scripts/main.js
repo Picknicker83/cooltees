@@ -103,6 +103,26 @@ const PRODUCTS = [
     "tags": ["nature", "botanical", "plants", "gift", "unisex"],
     "featured": false
   }
+  ,{
+    "id": "6",
+    "slug": "houston-i-have-so-many-problems",
+    "title": "Houston, I Have So Many Problems",
+    "tagline": "One small step for cat, one giant problem for mankind.",
+    "verdict": "We didn't know we needed a cat astronaut shirt until we saw this one. The illustration is genuinely excellent — detailed, characterful, and funny without being try-hard. This is the rare shirt that makes people laugh AND think 'wow, that's actually a great design'.",
+    "fullStory": "Let's be honest: the internet loves cats. The internet also loves space. So why has it taken this long for someone to combine them this perfectly? The Houston, I Have So Many Problems tee is exactly the kind of shirt that stops you mid-scroll and makes you think 'I need that'. The centrepiece is a beautifully rendered hand-drawn illustration of a cat in a full astronaut suit, floating weightlessly through space with the kind of serene, unbothered expression that only cats can pull off. Surrounding it: retro pink stars, bold vintage typography, and the iconic Houston reference twisted into something genuinely clever. The artwork has real quality to it — this isn't a cheap clip-art job. The linework on the spacesuit is intricate and detailed, the composition is balanced, and the colour palette (black ink, coral red, white base) is understated enough to let the design breathe. It's funny, it's well-crafted, and it's exactly the kind of shirt that earns a genuine laugh from strangers.",
+    "whoIsItFor": "Cat lovers, obviously — but honestly this one goes way beyond the cat crowd. It's for anyone who appreciates clever humour and good illustration. Science fans, space nerds, people with a self-deprecating sense of humour, and anyone who's ever felt like they have, in fact, so many problems. Age range: pretty much anyone from teens to 50s.",
+    "bestWornFor": ["Cat lover gifts", "Space & science fans", "Casual everyday wear", "Birthday gifts (especially for cat owners)", "Anyone who needs a laugh"],
+    "whyGift": "This is one of those rare gifts that gets an actual reaction when unwrapped — a real laugh, followed by immediately putting it on. Perfect for cat lovers, space nerds, or literally anyone with a sense of humour. Extremely hard to go wrong with this one.",
+    "badge": "Hidden Gem",
+    "ratings": { "coolness": 9, "wearability": 8, "giftScore": 10, "conversationStarter": 10 },
+    "price": "$24.99",
+    "affiliateUrl": "https://amzn.to/PLACEHOLDER6",
+    "imageUrl": "images/cat-in-outer-space.jpg",
+    "designUrl": "images/cat-in-outer-space.jpg",
+    "category": "Funny",
+    "tags": ["cat", "space", "funny", "gift", "humor"],
+    "featured": true
+  }
 ];
 
 // ===== BADGE CONFIG =====
