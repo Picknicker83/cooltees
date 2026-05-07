@@ -1,5 +1,4 @@
 // ===== PRODUCT DATA =====
-// To add a new product, copy one block and paste it inside the [ ] separated by a comma.
 // badge options: "This Week's Pick" | "Hidden Gem" | "Cult Classic" | "Rising" | "Perfect Gift" | "Editor's Choice"
 // ratings: score out of 10
 
@@ -10,15 +9,12 @@ const PRODUCTS = [
     "title": "The Vintage Sunset Tee",
     "tagline": "Wear the golden hour.",
     "verdict": "This one caught us off guard. The design is deceptively simple but gets more interesting the longer you look at it. Wear it once and someone will ask where you got it.",
-    "description": "This isn't just a t-shirt — it's a vibe. The faded sunset graphic feels like it was pulled straight from a 1970s road trip. Soft, relaxed fit, and the kind of shirt people will ask you about. Makes an incredible gift for anyone who loves the outdoors, travel, or just looking effortlessly cool.",
-    "whyGift": "Perfect for the friend who has everything but still manages to look underdressed. This one fixes that.",
+    "fullStory": "There's a certain kind of t-shirt that doesn't try too hard — and that's exactly what makes it so hard to ignore. The Vintage Sunset Tee is one of those rare finds that feels like it's been in someone's wardrobe for 30 years, even though you just pulled it out of an Amazon box. The faded, sun-drenched graphic channels the energy of a 1970s road trip: windows down, no plans, nowhere to be. It's printed on soft, relaxed-fit cotton that drapes well without being baggy, and the muted color palette means it works with almost anything in your wardrobe. Jeans, chinos, shorts — this shirt doesn't care. It just looks good. We've seen a lot of sunset graphics come and go, but this one has a restraint to it that most don't. The colors are faded just enough to feel authentic, and the placement on the chest is exactly right. Not too big, not too small. Just right.",
+    "whoIsItFor": "The Vintage Sunset Tee is made for people who care about how they look but pretend they don't. It's for the traveller, the weekend adventurer, the person who'd rather be on a road trip than in a meeting. Age-wise it works for anyone — we've seen it look great on 20-somethings and 50-somethings alike.",
+    "bestWornFor": ["Road trips & travel", "Weekend hangouts", "Festivals & outdoor events", "Casual Fridays at the office", "Beach days"],
+    "whyGift": "Perfect for the friend who has everything but still manages to look underdressed. This one fixes that. It's the kind of gift that gets worn immediately — not tucked in a drawer.",
     "badge": "Hidden Gem",
-    "ratings": {
-      "coolness": 9,
-      "wearability": 8,
-      "giftScore": 7,
-      "conversationStarter": 10
-    },
+    "ratings": { "coolness": 9, "wearability": 8, "giftScore": 7, "conversationStarter": 10 },
     "price": "$24.99",
     "affiliateUrl": "https://amzn.to/PLACEHOLDER1",
     "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80",
@@ -33,15 +29,12 @@ const PRODUCTS = [
     "title": "The Midnight Mountain Tee",
     "tagline": "For those who peak differently.",
     "verdict": "Bold without being loud. This is the shirt you reach for when you want to look like you have your life together without trying too hard. The mountain graphic ages like fine wine.",
-    "description": "Bold, dark, and unapologetically cool. The Midnight Mountain Tee features a stunning mountain range graphic on a deep black base. Heavyweight cotton, relaxed fit — this shirt means business. Whether you're hiking or just hiking to the fridge, you'll look great doing it.",
-    "whyGift": "The ultimate gift for hikers, adventurers, or anyone who just loves the mountains. They'll wear it every week.",
+    "fullStory": "There's something timeless about mountain graphics on a black tee. Done badly, they look like every other shirt at a souvenir shop. Done well — like this one — they become a wardrobe staple you reach for again and again. The Midnight Mountain Tee sits firmly in the second category. The graphic is bold but not oversized, detailed but not cluttered. The mountain range sits perfectly on the chest, rendered in clean white lines that pop against the deep black base. The fabric is heavyweight cotton — the kind that feels substantial without being stiff — and the relaxed fit means it works whether you're actually heading into the mountains or just heading to the pub. What sets this apart from the hundreds of mountain tees out there is the quality of the print. It's crisp, well-registered, and feels like it'll last. No cracking after three washes. No peeling edges. Just a solid graphic that keeps looking good the longer you wear it.",
+    "whoIsItFor": "Hikers, climbers, and outdoor enthusiasts will love this — but honestly, you don't need to have ever seen a mountain to pull it off. It works just as well for the city dweller who just appreciates good design. It leans masculine but is genuinely unisex in its appeal.",
+    "bestWornFor": ["Hiking & trail days", "Camping weekends", "Casual everyday wear", "Layering under a flannel shirt", "Gift for the outdoorsy friend"],
+    "whyGift": "The ultimate gift for hikers, adventurers, or anyone who just loves the mountains. They'll wear it every week — guaranteed. It's the kind of shirt that makes people think you spent way more than you did.",
     "badge": "Editor's Choice",
-    "ratings": {
-      "coolness": 9,
-      "wearability": 9,
-      "giftScore": 8,
-      "conversationStarter": 7
-    },
+    "ratings": { "coolness": 9, "wearability": 9, "giftScore": 8, "conversationStarter": 7 },
     "price": "$27.99",
     "affiliateUrl": "https://amzn.to/PLACEHOLDER2",
     "imageUrl": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=800&q=80",
@@ -56,21 +49,58 @@ const PRODUCTS = [
     "title": "The Retro Wave Tee",
     "tagline": "Back to the future of fashion.",
     "verdict": "Loud, proud, and unapologetically fun. This is not a shirt for the faint-hearted — it's for people who walk into a room and own it. The 80s never looked this good.",
-    "description": "Synthwave meets streetwear. This neon-tinged retro design is loud, proud, and incredibly fun. Printed on ultra-soft ring-spun cotton, it's comfortable enough to live in. The kind of shirt that turns a Tuesday into an event.",
-    "whyGift": "For the person in your life who unironically loves the 80s — or just great design. Birthday, Christmas, or just because.",
+    "fullStory": "The 80s are back — and honestly, they never really left. The Retro Wave Tee leans all the way into the synthwave aesthetic with a neon-drenched graphic that's bold, fun, and surprisingly wearable. Yes, it's loud. Yes, people will notice. But here's the thing: in a sea of plain tees and minimal basics, a shirt like this is genuinely refreshing. It says something about the person wearing it. Namely, that they don't take themselves too seriously — and that's always cool. The print itself is a work of art in the best possible way: layered gradients, geometric shapes, and that unmistakable retro palette of purple, pink, and electric blue. It's printed on ultra-soft ring-spun cotton that feels great against the skin and holds up wash after wash. Pair it with black jeans and white sneakers for maximum effect. Or just throw it on with whatever — it'll carry the whole outfit.",
+    "whoIsItFor": "This one is for the extroverts, the nostalgics, and the people who have a poster of Back to the Future on their wall. It works brilliantly for anyone with a bold personal style, and it's an absolute hit at themed parties, festivals, and anywhere else where standing out is a feature rather than a bug.",
+    "bestWornFor": ["80s themed parties", "Festivals & concerts", "Weekend outings", "Gift for the fun one in the group", "Anyone who loves retro design"],
+    "whyGift": "For the person in your life who unironically loves the 80s — or just great design. Birthday, Christmas, or just because. It's the gift that gets an actual reaction when they open it.",
     "badge": "This Week's Pick",
-    "ratings": {
-      "coolness": 10,
-      "wearability": 7,
-      "giftScore": 9,
-      "conversationStarter": 10
-    },
+    "ratings": { "coolness": 10, "wearability": 7, "giftScore": 9, "conversationStarter": 10 },
     "price": "$22.99",
     "affiliateUrl": "https://amzn.to/PLACEHOLDER3",
     "imageUrl": "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=800&q=80",
     "designUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800&q=80",
     "category": "Retro",
     "tags": ["retro", "80s", "synthwave", "fun", "gift"],
+    "featured": false
+  },
+  {
+    "id": "4",
+    "slug": "minimal-black-tee",
+    "title": "The Minimal Black Tee",
+    "tagline": "Less is more. Always.",
+    "verdict": "The anti-statement statement shirt. No graphics, no slogans — just an impossibly well-cut black tee that makes everything else in your wardrobe look better.",
+    "fullStory": "Sometimes the best shirt is the one that says nothing at all. The Minimal Black Tee is a masterclass in restraint — no graphics, no logos, no gimmicks. Just a perfectly weighted black cotton tee with a cut that actually flatters. We know what you're thinking: it's just a black t-shirt. And you're right. But here's what separates a great black tee from a forgettable one: the weight of the fabric, the fit through the shoulders, the length of the hem, the way the neckline sits. This one gets all of it right. It's the kind of shirt that makes your jeans look more expensive, your jacket look more intentional, and your whole outfit look more considered. Every wardrobe needs one. Most people just haven't found the right one yet.",
+    "whoIsItFor": "Everyone. Genuinely. This is the most democratic shirt on the site. It works for any age, any style, any occasion. If you're buying a gift and you have no idea what to get — this is the answer.",
+    "bestWornFor": ["Everyday wear", "Layering under jackets & shirts", "Smart casual occasions", "Travel (pairs with everything)", "The person who 'doesn't really wear graphic tees'"],
+    "whyGift": "The perfect gift for the person who's impossible to buy for. It's useful, it's stylish, and it's something they'll actually wear. No joke — this might be the most reliably appreciated gift on the site.",
+    "badge": "Cult Classic",
+    "ratings": { "coolness": 7, "wearability": 10, "giftScore": 10, "conversationStarter": 4 },
+    "price": "$19.99",
+    "affiliateUrl": "https://amzn.to/PLACEHOLDER4",
+    "imageUrl": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=800&q=80",
+    "designUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800&q=80",
+    "category": "Minimal",
+    "tags": ["minimal", "black", "classic", "gift", "unisex"],
+    "featured": false
+  },
+  {
+    "id": "5",
+    "slug": "nature-botanica-tee",
+    "title": "The Botanica Tee",
+    "tagline": "Wear the wild.",
+    "verdict": "Quietly stunning. The kind of shirt that earns compliments from people with genuinely good taste. The botanical print is detailed, considered, and completely unique.",
+    "fullStory": "Not every great shirt needs to shout. The Botanica Tee whispers — and somehow, that makes it more memorable than anything louder. The design features a beautifully rendered botanical illustration across the chest: leaves, stems, and flowers rendered in fine lines on a soft sage green base. It's the kind of print you'd expect to find in an independent boutique for three times the price. The fabric is lightweight and breathable — ideal for warmer months — and the relaxed cut means it works equally well tucked in or left out. What really sets this apart is the print quality. Botanical illustrations are notoriously hard to get right on fabric — the fine lines tend to blur or bleed. Not here. Every detail is crisp and clean, which makes the whole thing feel genuinely premium.",
+    "whoIsItFor": "Nature lovers, plant parents, and anyone with an appreciation for considered design. It skews slightly feminine in its aesthetic but works beautifully as a unisex pick. Gardeners, hikers, and anyone who'd rather be outside will particularly love it.",
+    "bestWornFor": ["Garden parties & outdoor events", "Farmers markets & weekend brunches", "Nature walks & light hiking", "Gift for the plant lover", "Summer days"],
+    "whyGift": "The go-to gift for the plant lover, the nature enthusiast, or anyone who appreciates art on fabric. It feels thoughtful and personal — even if you found it in 30 seconds on Amazon.",
+    "badge": "Rising",
+    "ratings": { "coolness": 8, "wearability": 9, "giftScore": 9, "conversationStarter": 8 },
+    "price": "$23.99",
+    "affiliateUrl": "https://amzn.to/PLACEHOLDER5",
+    "imageUrl": "https://images.unsplash.com/photo-1503944583220-79d8926ad5e2?w=800&q=80",
+    "designUrl": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80",
+    "category": "Nature",
+    "tags": ["nature", "botanical", "plants", "gift", "unisex"],
     "featured": false
   }
 ];
@@ -85,7 +115,7 @@ const BADGE_COLORS = {
   "Editor's Choice":  "#15803d"
 };
 
-// ===== RATING BAR HTML =====
+// ===== RATING BAR =====
 function ratingBar(label, icon, score) {
   return `
     <div class="rating-row">
@@ -98,13 +128,13 @@ function ratingBar(label, icon, score) {
   `;
 }
 
-// ===== BADGE HTML =====
+// ===== BADGE =====
 function badgeHtml(badge) {
   const color = BADGE_COLORS[badge] || "#ff4500";
   return `<span class="badge" style="background:${color}">${badge}</span>`;
 }
 
-// ===== CREATE PRODUCT CARD HTML =====
+// ===== PRODUCT CARD =====
 function createCard(product) {
   const color = BADGE_COLORS[product.badge] || "#ff4500";
   return `
@@ -119,7 +149,7 @@ function createCard(product) {
           <a href="product.html?id=${product.id}" style="color:inherit;text-decoration:none;">${product.title}</a>
         </h3>
         <p class="product-tagline">"${product.tagline}"</p>
-        <p class="verdict-preview">${product.verdict.substring(0, 100)}...</p>
+        <p class="verdict-preview">${product.verdict.substring(0, 110)}...</p>
         <div class="card-ratings">
           ${ratingBar('Coolness', '😎', product.ratings.coolness)}
           ${ratingBar('Gift Score', '🎁', product.ratings.giftScore)}
@@ -140,8 +170,7 @@ function renderHome() {
   const featuredGrid = document.getElementById('featured-grid');
   const allGrid = document.getElementById('all-grid');
   if (!featuredGrid || !allGrid) return;
-  const featured = PRODUCTS.filter(p => p.featured);
-  featuredGrid.innerHTML = featured.map(createCard).join('');
+  featuredGrid.innerHTML = PRODUCTS.filter(p => p.featured).map(createCard).join('');
   allGrid.innerHTML = PRODUCTS.map(createCard).join('');
 }
 
@@ -154,8 +183,8 @@ function renderProduct() {
   const product = PRODUCTS.find(p => p.id === id);
   if (!product) return;
 
-  document.title = `${product.title} — The Tee Edit`;
-  document.querySelector('meta[name="description"]').setAttribute('content', product.description);
+  document.title = `${product.title} Review — The Tee Edit`;
+  document.querySelector('meta[name="description"]').setAttribute('content', product.verdict);
 
   const container = document.getElementById('product-detail');
   if (!container) return;
@@ -164,14 +193,15 @@ function renderProduct() {
     <div class="image-panel">
       <span class="image-label">The Design</span>
       <img src="${product.designUrl}" alt="${product.title} design" />
-    </div>
-  ` : '';
+    </div>` : '';
+
+  const wornForItems = product.bestWornFor.map(w => `<li>✓ ${w}</li>`).join('');
 
   container.innerHTML = `
     <section class="product-hero">
       <div class="container product-layout">
 
-        <!-- LEFT: Images -->
+        <!-- LEFT: Images (sticky) -->
         <div class="product-images">
           <div class="image-panel">
             <span class="image-label">Mockup</span>
@@ -192,7 +222,7 @@ function renderProduct() {
           <h1 itemprop="name">${product.title}</h1>
           <p class="product-hero-tagline">"${product.tagline}"</p>
 
-          <!-- Our Verdict -->
+          <!-- Verdict -->
           <div class="verdict-box">
             <p class="verdict-label">✍️ Our Verdict</p>
             <p class="verdict-text">${product.verdict}</p>
@@ -207,23 +237,53 @@ function renderProduct() {
             ${ratingBar('Conversation Starter', '💬', product.ratings.conversationStarter)}
           </div>
 
-          <p class="product-hero-desc">${product.description}</p>
+          <!-- Price + CTA -->
+          <div class="price-cta">
+            <div class="product-hero-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+              <span itemprop="price" content="${product.price.replace('$','')}">${product.price}</span>
+            </div>
+            <a href="${product.affiliateUrl}" target="_blank" rel="noopener sponsored" class="btn-primary">
+              🛒 Check Price on Amazon
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="product-hero-price" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-            <span itemprop="price" content="${product.price.replace('$','')}">${product.price}</span>
+    <!-- FULL STORY SECTION -->
+    <section class="content-section">
+      <div class="container content-layout">
+
+        <div class="content-main">
+          <!-- Full Story -->
+          <div class="content-block">
+            <h2>📖 The Full Story</h2>
+            <p>${product.fullStory}</p>
           </div>
 
-          <a href="${product.affiliateUrl}" target="_blank" rel="noopener sponsored" class="btn-primary">
-            🛒 Check Price on Amazon
-          </a>
+          <!-- Who is it for -->
+          <div class="content-block">
+            <h2>👤 Who Is It For?</h2>
+            <p>${product.whoIsItFor}</p>
+          </div>
+        </div>
 
-          <div class="tags">
-            ${product.tags.map(t => `<span class="tag">#${t}</span>`).join('')}
+        <div class="content-side">
+          <!-- Best worn for -->
+          <div class="side-box">
+            <h3>🎯 Best Worn For</h3>
+            <ul class="worn-list">${wornForItems}</ul>
           </div>
 
-          <div class="gift-box">
-            <h3>🎁 Why it makes a great gift</h3>
+          <!-- Gift box -->
+          <div class="side-box gift-side">
+            <h3>🎁 As a Gift</h3>
             <p>${product.whyGift}</p>
+          </div>
+
+          <!-- Tags -->
+          <div class="tags dark-tags">
+            ${product.tags.map(t => `<span class="tag">#${t}</span>`).join('')}
           </div>
         </div>
 
@@ -231,11 +291,12 @@ function renderProduct() {
     </section>
   `;
 
+  // Schema.org
   const schema = {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": product.title,
-    "description": product.description,
+    "description": product.fullStory,
     "image": product.imageUrl,
     "offers": {
       "@type": "Offer",
